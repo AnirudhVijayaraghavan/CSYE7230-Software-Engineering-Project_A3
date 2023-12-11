@@ -1,34 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## AI Learning Platform
 
-## Getting Started
+AI Learning Platform is a Next.js application designed to provide an interactive and comprehensive environment for learning and exploring various aspects of Artificial Intelligence. It integrates a multitude of APIs including PlanetScale DB, Stripe, YouTube, Unsplash, OpenAI, and Google OAuth to offer a diverse and enriched user experience.
 
-First, run the development server:
+## PREREQUISITES
 
-```bash
+Before you begin, ensure you have met the following requirements:
+
+Node.js and npm installed (see Node.js for installation instructions).
+
+An account and API keys for:
+
+PlanetScale DB
+Stripe
+YouTube Data API
+Unsplash API
+OpenAI API
+Google OAuth Client
+
+## INSTALLATION
+
+1.Clone the repository:
+
+git clone https://github.com/AnirudhVijayaraghavan/CSYE7230-Software-Engineering-Project_A3.git
+
+cd CSYE7230-Software-Engineering-Project_A3
+
+2. Install dependencies:
+
+npm install
+
+
+## CONFIGURATION
+
+Create a .env.local file in the root directory of your project and add the following environment variables:
+
+env
+
+PLANETSCALE_DB_URL=your_planetscale_db_url
+
+STRIPE_API_KEY=your_stripe_api_key
+
+YOUTUBE_API_KEY=your_youtube_api_key
+
+UNSPLASH_API_KEY=your_unsplash_api_key
+
+OPENAI_API_KEY=your_openai_api_key
+
+GOOGLE_CLIENT_ID=your_google_client_id
+
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+Replace your_* with your actual API keys and credentials.
+
+## Running the Application
+
+To run the application in development mode:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Your app should be available at http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## To create a production build:
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## To start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+npm start
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Linting
+
+To lint the code:
+
+
+npm run lint
+
+
+## Contributing
+
+
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
