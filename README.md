@@ -11,7 +11,8 @@ Check out our presentation here :
 
 https://www.youtube.com/watch?v=lngtD_pHc_w
 
-""Currently down temporarily for DB upgrade.""
+""Temporarily down for DB upgrade.""
+
 ## AI Learning Platform
 YOU CAN CHECK OUT THE APP AT  : [https://assistedinstructai.anirudhvijayaraghavan.me](https://assistedinstructai.anirudhvijayaraghavan.me)
 
